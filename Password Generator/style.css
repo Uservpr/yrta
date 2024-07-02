@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+}
+
+
+
+.container {
+  
+  position: absolute;
+  height: 420px;
+  width: 300px;
+  background: none;
+  border: 1px solid lightblue;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+ 
+}
+
+.container h1{
+  text-align: center;
+  font-size: 24px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: lightblue;
+  font-style: italic;
+  margin-top: 25px;
+}
+
+
+
+.result{
+margin: 25px 0 25px 0;
+
+}
+
+
+
+.result #para{
+  text-align: center;
+  font-family: Courier;
+  font-style: italic;
+  font-size: 20px;
+  color: white
+}
+
+.div-content{
+  width: 300px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.div-content input{
+  height: 29px;
+  width: 50px;
+  margin-right: 20px;
+  outline: none;
+  color: lightblue;
+  background: none;
+  border: 1px solid lightblue;
+  padding: 3px 6px;
+  font-family: cursive;
+  font-weight: bold;
+  
+}
+
+
+.div-content label {
+ 
+  padding-left: 20px;
+  outline: none;
+  color: lightblue;
+  background: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+
+}
+
+
+div-content input{
+  margin-right: 20px;
+  outline: none;
+ 
+  
+}
+
+
+.div-content label {
+ 
+  padding-left: 20px;
+  outline: none;
+  color: lightblue;
+  background: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+
+}
+
+
+
+
+
+
+
+.symbol{
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 25px;
+}
+
+.symbol label {
+ padding-left: 20px;
+ color: lightblue;
+ font-family: 'Courier New', Courier, monospace;  
+  
+}
+
+.symbol input{
+ 
+ 
+ padding-right: 20px;
+}
+
+.button{
+  padding-bottom: 30px;
+}
+
+.button button{
+    padding: 5px 30px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-style: italic;
+    border: 1px solid lightblue;
+    background: none;
+    color: lightblue;
+
+}
+
+.button button:hover {
+  background: steelblue;
+  color: whitesmoke;
+  border: none;
+  outline: none;
+}
